@@ -1,0 +1,100 @@
+.section1 {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    padding: 2rem 0;
+}
+
+
+.section1-header {
+    width: 100%;
+    margin: auto;
+}
+
+.section1-header h1 {
+    text-transform: uppercase;
+    color: rgb(9, 117, 180);
+    font-size: 1.5rem;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+
+.section1-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.section1-card-caption {
+    margin: auto;
+}
+
+.section1-card-caption h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1rem 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.section1-card {
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
+    transition: border-radius .5s;
+}
+
+.section1-card:hover {
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+}
+
+
+.section1-card-img {
+    width: 180px;
+    margin: auto;
+}
+
+
+.section1-card-img img {
+    width: 100%;
+}
+
+.section1-card-caption {
+    margin: auto;
+}
+
+.rainbow img {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:940px) {
+    .section1-header h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .section1-card {
+        display: flex;
+    }
+
+    .section1-card {
+        text-align: center;
+        background-color: white;
+        border-radius: 1rem;
+        box-shadow: 10px 14px 15px -14px rgba(0,0,0,0.75);
+    }
+
+}

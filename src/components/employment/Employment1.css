@@ -1,0 +1,75 @@
+.employment1 {
+    background-color: white;
+    padding: 5rem 0;
+}
+
+.employment1-header h1{
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.employment1-flex {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.employment1-icon {
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.employment1-icon img {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+.employment1-caption {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.employment1-caption h1 {
+    padding: .8rem 0;
+    font-size: 3rem;
+}
+
+.employment1-caption p {
+    font-size: 16px;
+}
+
+@media screen and (max-width:940px) {
+    .employment1-caption {
+        width: 90%;
+        padding: 0 1rem;
+    }
+
+    .employment1-caption h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .employment1-icon {
+        width: 500px;
+        margin: auto;
+    }
+    
+    .employment1-icon img {
+        width: 100%;
+        border-radius: 3rem;
+    }
+    
+    .employment1-caption {
+        width: 90%;
+    }
+
+    .employment1-flex {
+        flex-wrap: wrap;
+    }
+
+}

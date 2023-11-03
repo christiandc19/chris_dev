@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+.section2 {
+    padding: 4rem 0;
+    border-top: 10px solid  rgb(9, 117, 180);
+    margin-top: -.5rem;
+}
+
+
+.section2-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section2-content-left {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.section2-content-left h1 {
+    font-size: 4rem;
+    color: rgb(3, 95, 3);
+
+}
+
+.section2-content-left img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.section2-content-right {
+    width: 600px;
+    margin: auto;
+}
+
+.section2-content-right P {
+    text-align: justify;
+}
+
+.section2-content-right h2 {
+    font-size: 3rem;
+    color: #E2AB7F;
+}
+
+.section2-content-right h1 {
+    text-transform: uppercase;
+    color: rgb(167, 167, 12);
+    font-size: 2.5rem;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+@media screen and (max-width:940px) {
+    .section2-content-left {
+        width: 100%;
+    }
+
+    .section2-content-right {
+        width: 100%;
+    }
+
+    .section2-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .section2-content-right h1 {
+        text-align: center;
+        padding: 1rem 0 0 0;
+    }
+    
+
+}
+
+
+

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-top: 5px solid rgb(17, 158, 214);
+  }
+  
+  .footer:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .footer-content {
+    width: 100%;
+    padding: 3rem 0;
+  }
+
+  .logo-footer {
+    width: 200px;
+  }
+
+  .logo-footer img {
+    width: 100%;
+  }
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .top {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .top .logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer .top .footer-icon {
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: rgb(32, 30, 30);
+    cursor: pointer;
+}
+
+.footer h1 {
+    font-size: 2rem;
+    color: rgb(32, 30, 30);
+}
+
+.footer h2 {
+    font-size: 2rem;
+}
+
+.footer h3 {
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+}
+
+
+.footer a {
+    color: rgb(12, 12, 12);
+    font-size: 1rem;
+}
+
+.footer .col-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.column {
+    width: 30%;
+    padding: 1rem;
+}
+
+.footer h3 {
+    margin: 1rem 0 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.footer p {
+    font-family: 'Montserrat', sans-serif;
+    margin: .5rem 0;
+    color: rgb(32, 30, 30);
+    font-weight: 500;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    padding: 1rem;
+}
+
+.copyright p {
+    color: rgb(19, 18, 18);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 940px) {
+    .footer {
+        height: 100%;
+    }
+
+    .footer h1, .footer h2, .footer h3, .footer p {
+        text-align: center;
+    }
+
+    .column {
+        background-color: rgba(172, 221, 236, 0.11);
+        width: 90%;
+    }
+
+    .copyright {
+        width: 90%;
+        padding: 1rem;
+    }
+
+}
+
+

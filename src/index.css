@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+  --primary-color: rgb(7, 95, 153);
+  --primary-dark: #be832a;
+  --secondary-color: #46a828;
+  --primary-text: rgb(22, 58, 131);
+
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+code {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(240, 231, 231);
+  font-family: 'Roboto Slab', serif;
+}
+
+a:hover {
+  color: rgb(4, 111, 252);
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text);
+}
+
+h1 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  padding: .5rem 2rem;
+  margin: 1rem 0;
+  background-color: rgba(5, 71, 5, 0.699);
+  border: 1px solid rgba(5, 71, 5, 0.699);
+  color: #f8f8f8;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 16px;
+  cursor:pointer;
+}
+
+button:hover {
+  color: black;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.678);
+  border: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+span {
+  color: var(--primary-color);
+}
+
+
+/* SUBMENU */
+
+.sub__menus__arrows:hover .sub__menus{
+  display: block;
+}
+
+.sub__menus__arrows__full:hover .sub__menus{
+  display: block;
+  z-index: 1000000;
+}
+
+.menu-item .sub__menus  a {
+padding: 7px 0 0px 0;
+margin: 0px 5px;
+}
+
+  /* MEDIA QUERIES */
+  
+  @media screen and (max-width:940px) {
+
+    p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+

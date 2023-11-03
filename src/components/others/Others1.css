@@ -1,0 +1,59 @@
+.others1 {
+    background-color: white;
+    padding: 3rem 0;
+}
+
+.others1-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.others1-left {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.others1-left h1 {
+    font-size: 2rem;
+    padding: .5rem 0;
+    text-align: left;
+    font-family: 'Lilita One', cursive;
+}
+
+.others1-left p {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.others1-right {
+    width: 500px;
+    margin: auto;
+}
+
+
+.others1-right img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:940px) {
+    .others1-flex {
+        flex-wrap: wrap;
+    }
+
+    .others1-left {
+        width: 90%;
+    }
+    
+    
+    .others1-right {
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+video {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero .hero-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    bottom: 0%;
+}
+
+.hero .hero-container .content {
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    padding: 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    font-family: 'Cookie', cursive;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.hero h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 2px;
+}
+
+.span1 {
+    color: rgb(167, 167, 12);
+    font-weight: 600;
+}
+
+.span2 {
+    color: rgb(3, 95, 3);
+    font-weight: 600;
+}
+
+.span3 {
+    font-weight: 600;
+    color: rgb(9, 117, 180);
+}
+
+.hero-container p {
+    font-size: 2rem;
+    color:rgba(245, 242, 239, 0.849);
+    font-family: 'Cookie', cursive;
+    text-align: center;
+}
+
+.hero .hero-btn button {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 117, 180);
+    color: rgb(247, 241, 241);
+    padding: .3rem 1.5rem;
+    font-size: 14px;
+}
+
+.hero-btn {
+    padding: 0;
+    text-align: center;
+}
+
+.hero .hero-btn button:hover {
+  color: var(--primary-color);
+  background-color: rgb(33, 121, 33);
+  color: white;
+  font-weight: 300;
+}
+
+.header__socials {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.span-github {
+    color: white;
+}
+
+.span-twitter {
+    color: rgb(0, 195, 255);
+}
+
+.span-instagram {
+    color: rgb(255, 255, 255);
+}
+
+.span-messenger {
+    color: rgb(93, 166, 214);
+}
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width:700px) {
+
+    .hero h1 {
+        font-size: 1.7rem;
+    }
+
+    .hero h2 {
+        font-size: 3rem;
+    }
+
+    .hero .hero-container .content {
+        width: 100%;
+        position: absolute;
+        bottom: 20%;
+        left: 0%;
+    }
+    
+    }
+    
