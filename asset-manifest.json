@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chris_dev/static/css/main.27f3af03.css",
-    "main.js": "/chris_dev/static/js/main.44088842.js",
+    "main.css": "/chris_dev/static/css/main.97b2c08a.css",
+    "main.js": "/chris_dev/static/js/main.a32783c8.js",
     "static/media/hero_video_bg.mp4": "/chris_dev/static/media/hero_video_bg.b6c448397c26c174d689.mp4",
     "static/media/housing.jpg": "/chris_dev/static/media/housing.b383309ca7ff6c121415.jpg",
     "static/media/SS_SunsetRehab.png": "/chris_dev/static/media/SS_SunsetRehab.845568761c30de07d34e.png",
@@ -13,6 +13,7 @@
     "static/media/SS_KingsTMS.png": "/chris_dev/static/media/SS_KingsTMS.065c6f8ce60355d36078.png",
     "static/media/SS_RodeoRecovery.png": "/chris_dev/static/media/SS_RodeoRecovery.6900b54c27dc50d7daa2.png",
     "static/media/SS_GetRealRecovery.png": "/chris_dev/static/media/SS_GetRealRecovery.51066b7114940c3d8784.png",
+    "static/media/me.png": "/chris_dev/static/media/me.08895ef0540782a30497.png",
     "static/media/community.png": "/chris_dev/static/media/community.37e3b982d824ed2b9b9a.png",
     "static/media/splatter2.png": "/chris_dev/static/media/splatter2.381b89a7927faf18d532.png",
     "static/media/rehabilitation.png": "/chris_dev/static/media/rehabilitation.550f0cd4766f70afbda1.png",
@@ -20,14 +21,10 @@
     "static/media/assist.png": "/chris_dev/static/media/assist.1fa80469b749c1d62be2.png",
     "static/media/SS_OceanValley.png": "/chris_dev/static/media/SS_OceanValley.91537e0a9c847eff153d.png",
     "static/media/SS_BeachStreet.png": "/chris_dev/static/media/SS_BeachStreet.1e012c1b400bfcd995ff.png",
-    "static/media/chris_logo.png": "/chris_dev/static/media/chris_logo.96e9dbcaee4127d1e760.png",
-    "static/media/splatter3.png": "/chris_dev/static/media/splatter3.44037c852e3aad6d01ab.png",
-    "static/media/nav-logo-bl.png": "/chris_dev/static/media/nav-logo-bl.69e42d1d58f0811dd815.png",
-    "static/media/contact.webp": "/chris_dev/static/media/contact.e13d14e6c6e42881283e.webp",
     "static/media/support.png": "/chris_dev/static/media/support.26c79192e178a90b5b63.png",
     "static/media/employment-landing.webp": "/chris_dev/static/media/employment-landing.692f3d06232e8153eadb.webp",
     "static/media/employement1.png": "/chris_dev/static/media/employement1.37adbc6b55b52f0ce398.png",
-    "static/media/team-bg.webp": "/chris_dev/static/media/team-bg.b0b1f48ee7f7b5f4e214.webp",
+    "static/media/contact.webp": "/chris_dev/static/media/contact.198f1b1037d202a82798.webp",
     "static/media/paint-navy.png": "/chris_dev/static/media/paint-navy.fc409b0095f4e4d7aadd.png",
     "static/media/web_design.png": "/chris_dev/static/media/web_design.6759f41f3000842ff653.png",
     "static/media/mission.webp": "/chris_dev/static/media/mission.4270f4de73728aa6ba7b.webp",
@@ -37,12 +34,14 @@
     "static/media/web_pen_tool.png": "/chris_dev/static/media/web_pen_tool.ca2f4187e2583dd6b86a.png",
     "static/media/web_maintenance.png": "/chris_dev/static/media/web_maintenance.ba379259d9324b0b2d51.png",
     "static/media/web_seo.png": "/chris_dev/static/media/web_seo.da67c2c75f6fd132341e.png",
+    "static/media/fontrow_logo_wh.png": "/chris_dev/static/media/fontrow_logo_wh.5d92be3a4b66f9626d5d.png",
+    "static/media/fontrow_logo.png": "/chris_dev/static/media/fontrow_logo.6418615634e575a47d5e.png",
     "index.html": "/chris_dev/index.html",
-    "main.27f3af03.css.map": "/chris_dev/static/css/main.27f3af03.css.map",
-    "main.44088842.js.map": "/chris_dev/static/js/main.44088842.js.map"
+    "main.97b2c08a.css.map": "/chris_dev/static/css/main.97b2c08a.css.map",
+    "main.a32783c8.js.map": "/chris_dev/static/js/main.a32783c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.27f3af03.css",
-    "static/js/main.44088842.js"
+    "static/css/main.97b2c08a.css",
+    "static/js/main.a32783c8.js"
   ]
 }
