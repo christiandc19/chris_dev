@@ -68,11 +68,11 @@ const Footer = () => {
                     <div className="column">
                         <h3>Contact Us</h3>
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/los-angeles'><p><a href="tel:3234191110">  (323) 419-1110</a></p></Link>
+                        <Link to='/los-angeles'><p><a href="tel:8182721022">  (818) 272-1022</a></p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>1800 Vine St., Suite 210, <br/>Los Angeles, CA 90028</p></Link>
+                        <Link to='/'><p>Torrance Ave. <br/>Torrance, CA 90028</p></Link>
                         </LinkRoll>
                     </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                 </div>
 
                 <div className='copyright'>
-                    <p>&copy; 2023 First Step. All rights reserved</p>
+                    <p>&copy; 2023 Fontrow Web Services. All rights reserved</p>
                 </div>
 
             </div>

@@ -1,0 +1,29 @@
+.logos {
+    background-image: linear-gradient(to right, rgb(58, 115, 168) , rgb(45, 160, 180));    
+    position: relative;
+    z-index: 1;
+    padding: 3rem 0;
+}
+
+
+.logos-content {
+    padding: 1rem;
+}
+
+.logos-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logos h1 {
+    color: white;
+    font-size: 4rem;
+}
+
+@media screen and (max-width:700px) {
+    .logos h1 {
+        font-size: 2rem;
+    }
+}

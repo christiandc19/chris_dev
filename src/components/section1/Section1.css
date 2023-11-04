@@ -1,5 +1,6 @@
 .section1 {
-    background-image: linear-gradient(to right, #000000 , #2c2c2c);    text-align: center;
+    background-image: linear-gradient(to right, rgb(58, 115, 168) , rgb(45, 160, 180));    
+    text-align: center;
     position: relative;
     z-index: 1;
     padding: 3rem 0;

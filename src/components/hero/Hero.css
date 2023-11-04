@@ -19,13 +19,13 @@ video {
 .hero .hero-container .content {
     width: 100%;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     padding: 1rem;
 }
 
 
 .hero-logo {
-    width: 400px;
+    width: 150px;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ video {
 }
 
 .hero-container p {
-    font-size: 2rem;
+    font-size: 3rem;
     color:rgba(245, 242, 239, 0.849);
     font-family: 'Cookie', cursive;
     text-align: center;
@@ -122,11 +122,12 @@ video {
         font-size: 3rem;
     }
 
+    .hero-container p {
+        font-size: 2rem;
+    }
+
     .hero .hero-container .content {
-        width: 100%;
-        position: absolute;
-        bottom: 20%;
-        left: 0%;
+        bottom: 5%;
     }
     
     }
