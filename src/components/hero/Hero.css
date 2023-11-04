@@ -12,7 +12,7 @@ video {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to right, #000000f8 , rgba(68, 68, 68, 0.377));    text-align: center;
+    background-image: linear-gradient(to right, #0000006b , rgba(0, 0, 0, 0.315));    text-align: center;
     bottom: 0%;
 }
 
@@ -23,13 +23,14 @@ video {
     padding: 1rem;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    color: rgb(238, 229, 229);
-    font-family: 'Cookie', cursive;
-    letter-spacing: 2px;
-    font-style: italic;
+
+.hero-logo {
+    width: 400px;
+    margin: auto;
+}
+
+.hero-logo img {
+    width: 100%;
 }
 
 .hero h2 {

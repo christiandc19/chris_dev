@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {NavLink, Link} from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from '../../assets/chris_logo.png'
+import logo from '../../assets/fontrow_logo_wh.png'
 import {BsFillCaretDownFill } from "react-icons/bs";
 
 import './NavbarStyles.css'

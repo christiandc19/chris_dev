@@ -14,11 +14,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
 }
 
 .navbar-logo {
-  width: 250px;
+  width: 350px;
   z-index: 2;
 }
 .navbar-logo img {
@@ -156,6 +155,12 @@
   .sub__menus {
     left: -4rem;
   }
+
+  .navbar-logo {
+    width: 250px;
+    z-index: 2;
+  }
+
 }
 
 

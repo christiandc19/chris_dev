@@ -15,7 +15,7 @@ const Contact = () => {
             <Fade top>
                     <h1>Got Questions?</h1>
                     <h2>We’d love to hear from you!</h2>
-                    <h1>+1 (323) 840-1234</h1>
+                    <h1>+1 (818) 272-1022</h1>
             </Fade>
             </div>
      </div>
