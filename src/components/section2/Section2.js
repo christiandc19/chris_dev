@@ -1,6 +1,9 @@
 import React from "react";
 import "./Section2.css";
+import { AiOutlineCheck } from 'react-icons/ai';
+import Fade from 'react-reveal/Fade';
 
+import Laptop from '../../assets/man_laptop.webp'
 
 const Section2 = () => {
   return (
@@ -11,20 +14,28 @@ const Section2 = () => {
           <div className="section2-flex">
 
           <div className="section2-content-left">
-            
-            <h1>GET YOUR
-                WEBSITE
-                NOTICED
-            </h1>
+          <Fade left>
+            <img src={Laptop} alt="man with laptop" loading="lazy"/>
+          </Fade>
           </div>
 
           <div className="section2-content-right">
-            
-            <h1>Why Website Is Important?</h1> <br />
+          <Fade right>
+            <h1>WE CREATE A STUNNING WEBSITE</h1> <br />
             <p>
-            Recovery isn't just about changing the way you see yourself - It's also about changing the way you see the world. Our team is here to help you realize your full potential with a unique combination of programs and services designed to create a deep impact and long-lasting recovery.  <br />
-              <br /> Come work towards long-lasting change in your life that far outlasts the time you spend healing at our facilities and eventually, you will find that the work you put in extends beyond just yourself to your family, your loved ones, and your community.
+            Your online presence is often the first impression potential customers have of your business. We specialize in crafting websites that captivate audiences and leave a lasting impression.<br /><br /> 
+            <ul>
+              <li><span><AiOutlineCheck/> </span>Customized Designs</li>
+              <li><span><AiOutlineCheck/> </span>User-Centric Experience</li>
+              <li><span><AiOutlineCheck/> </span>Mobile Optimization</li>
+              <li><span><AiOutlineCheck/> </span>Engaging Visuals</li>
+              <li><span><AiOutlineCheck/> </span>SEO Integration</li>
+              <li><span><AiOutlineCheck/> </span>Social Media Integration</li>
+            </ul>
+              
+            Ready to elevate your online presence? Contact us today to discuss how we can create a website that sets your brand apart!
             </p>
+            </Fade>
           </div>
         </div>
         </div>

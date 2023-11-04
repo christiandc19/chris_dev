@@ -1,0 +1,79 @@
+
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.portfolio-header {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.portfolio-header h1 {
+    color: rgb(81, 176, 231);
+    font-size: 2rem;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+.card-main {
+    height: auto;
+    width: 300px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.096);
+    padding-bottom: 1rem;
+}
+
+.card-main img {
+    width: 100%;
+}
+
+.card-main a {
+    color: green;
+    font-size: 14px;
+}
+
+  .follow p {
+    color: var(--color-primary);
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.portfolio-quote {
+    text-align: center;
+    font-style: italic;
+    color: rgb(10, 10, 10);
+    padding: 2rem 1rem;
+}
+
+.project-description {
+    padding: 0 5px 0 5px;
+    color: rgb(24, 23, 23);
+}
+
+.card-main h1 {
+    color: rgb(81, 176, 231);
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+
+/* ======================== MEDIA QUERIES FOR SMALL DEVICES ================================ */
+
+@media screen and (max-width: 700px) {
+
+    .card-main {
+        width: 100%;
+    }
+
+    .card-main img {
+        padding: 1rem;
+    }
+    
+    
+}
+

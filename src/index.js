@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {createRoot} from 'react-dom/client';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -12,11 +12,15 @@ import ContactPage from './routes/ContactPage'
 import EmploymentPage from './routes/EmploymentPage';
 import TransitionalHousingPage from './routes/TransitionalHousingPage';
 
-import OthersPage from './routes/OthersPage'
+import PortfolioPage from './routes/PortfolioPage'
 import About from './routes/AboutPage';
 
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
 
-ReactDOM.render(
+
+
+root.render(
   <BrowserRouter basename={window.location.pathname || ''} >
     <Routes>
       <Route exact path='/' element={<App />} />
@@ -25,13 +29,13 @@ ReactDOM.render(
       <Route exact path='/transitional-housing' element={<TransitionalHousingPage />} />
 
 
-      <Route exact path='/other-resources' element={<OthersPage />} />
+      <Route exact path='/Portfolio' element={<PortfolioPage />} />
       <Route exact path='/about-us' element={<About />} />
 
       <Route exact path='/our-mission' element={<MissionPage />} />
+
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,
-  document.getElementById('root')
 );
 
