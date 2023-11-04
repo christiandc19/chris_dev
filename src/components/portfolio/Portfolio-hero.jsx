@@ -1,5 +1,5 @@
 import React from "react";
-import Splatter3 from '../../assets/splatter2.png'
+import Splatter3 from '../../assets/splatter3.png'
 
 import './Portfolio-hero.css'
 

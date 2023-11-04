@@ -2,18 +2,16 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import Others from '../components/others/Others'
-import Others1 from '../components/others/Others1'
 import ContactForm from '../components/contact/ContactForm'
 import ContactCards from '../components/contact/ContactCards'
+import WebDesign from '../components/services/WebDesignHero'
 
 
-const OthersPage = () => {
+const WebDesignPage = () => {
     return (
         <>
            <Navbar /> 
-           <Others />
-           <Others1 />
+            <WebDesign />
            <ContactForm />
            <ContactCards />
            <Footer />
@@ -21,4 +19,4 @@ const OthersPage = () => {
     )
 }
 
-export default OthersPage
+export default WebDesignPage

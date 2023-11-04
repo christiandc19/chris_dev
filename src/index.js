@@ -5,7 +5,7 @@ import {createRoot} from 'react-dom/client';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import MissionPage from './routes/MissionPage'
+import WebDesignPage from './routes/WebDesignPage'
 import ContactPage from './routes/ContactPage'
 
 
@@ -29,10 +29,10 @@ root.render(
       <Route exact path='/transitional-housing' element={<TransitionalHousingPage />} />
 
 
-      <Route exact path='/Portfolio' element={<PortfolioPage />} />
+      <Route exact path='/portfolio' element={<PortfolioPage />} />
       <Route exact path='/about-us' element={<About />} />
 
-      <Route exact path='/our-mission' element={<MissionPage />} />
+      <Route exact path='/web-design' element={<WebDesignPage />} />
 
       <Route exact path='/contact' element={<ContactPage />} />
     </Routes>
