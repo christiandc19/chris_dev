@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chris_dev/static/css/main.cf65b01a.css",
-    "main.js": "/chris_dev/static/js/main.7ad6fa80.js",
+    "main.css": "/chris_dev/static/css/main.9aa878a6.css",
+    "main.js": "/chris_dev/static/js/main.c6f3cd63.js",
     "static/media/hero_video_bg.mp4": "/chris_dev/static/media/hero_video_bg.b6c448397c26c174d689.mp4",
     "static/media/housing.jpg": "/chris_dev/static/media/housing.b383309ca7ff6c121415.jpg",
     "static/media/SS_SunsetRehab.png": "/chris_dev/static/media/SS_SunsetRehab.845568761c30de07d34e.png",
@@ -17,7 +17,6 @@
     "static/media/SS_22ndStreetRecovery.png": "/chris_dev/static/media/SS_22ndStreetRecovery.3f54568edd9db62de1b6.png",
     "static/media/SS_OceanValley.png": "/chris_dev/static/media/SS_OceanValley.91537e0a9c847eff153d.png",
     "static/media/SS_BeachStreet.png": "/chris_dev/static/media/SS_BeachStreet.1e012c1b400bfcd995ff.png",
-    "static/media/splatter3.png": "/chris_dev/static/media/splatter3.44037c852e3aad6d01ab.png",
     "static/media/employment-landing.webp": "/chris_dev/static/media/employment-landing.692f3d06232e8153eadb.webp",
     "static/media/employement1.png": "/chris_dev/static/media/employement1.37adbc6b55b52f0ce398.png",
     "static/media/portfolio.webp": "/chris_dev/static/media/portfolio.a10d515c69c2f5d52387.webp",
@@ -34,11 +33,11 @@
     "static/media/fontrow_logo.png": "/chris_dev/static/media/fontrow_logo.6f11522b68a07a8be3d9.png",
     "static/media/fontrow_logo_wh.png": "/chris_dev/static/media/fontrow_logo_wh.f939c261726356278031.png",
     "index.html": "/chris_dev/index.html",
-    "main.cf65b01a.css.map": "/chris_dev/static/css/main.cf65b01a.css.map",
-    "main.7ad6fa80.js.map": "/chris_dev/static/js/main.7ad6fa80.js.map"
+    "main.9aa878a6.css.map": "/chris_dev/static/css/main.9aa878a6.css.map",
+    "main.c6f3cd63.js.map": "/chris_dev/static/js/main.c6f3cd63.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf65b01a.css",
-    "static/js/main.7ad6fa80.js"
+    "static/css/main.9aa878a6.css",
+    "static/js/main.c6f3cd63.js"
   ]
 }
