@@ -30,27 +30,11 @@
     text-align: center;
 }
 
-.portfolio-hero-accent {
-    width: 100%;
-    margin: auto;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    z-index: -1;
-}
-
-.portfolio-hero-accent img {
-    width: 100%;
-    opacity: 0.6;
-}
 
 .portfolio-hero-content h1 {
-    font-size: 4rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Cookie', cursive;
-
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(243, 235, 235);
 }
 
 

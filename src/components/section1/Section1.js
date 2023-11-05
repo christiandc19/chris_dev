@@ -33,7 +33,7 @@ const Section1 = () => {
                         <p>Whether you need to revamp an outdated website, start a custom design or launch an online shop, we create mobile responsive sites with SEO in mind using the leading open source and site builder platforms.</p>
 
                         <div className='card-btn'>
-                            <Link to="/contact">
+                            <Link to="/web-design">
                                 <Fade bottom>
                                     <button>Learn More</button>
                                 </Fade>

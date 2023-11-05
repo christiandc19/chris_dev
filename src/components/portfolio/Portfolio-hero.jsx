@@ -1,5 +1,5 @@
 import React from "react";
-import Splatter3 from '../../assets/splatter3.png'
+import Fade from 'react-reveal/Fade';
 
 import './Portfolio-hero.css'
 
@@ -11,10 +11,9 @@ const PortfolioHero = () => {
             <>
         <div className='portfolio-hero'>
                 <div className="portfolio-hero-content">
+                    <Fade top>
                     <h1>Check out our projects</h1>
-                        <div className='portfolio-hero-accent'>
-                            <img src={ Splatter3 } alt="individual therapy" loading="lazy"/>
-                        </div>
+                    </Fade>
                 </div>
             </div>
 

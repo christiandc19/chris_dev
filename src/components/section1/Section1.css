@@ -1,5 +1,5 @@
 .section1 {
-    background-image: linear-gradient(to right, rgb(58, 115, 168) , rgb(45, 160, 180));    
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(0, 0, 0, 0.623));    
     text-align: center;
     position: relative;
     z-index: 1;

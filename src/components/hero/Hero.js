@@ -11,7 +11,7 @@ import { BsInstagram } from 'react-icons/bs'
 import { BsMessenger } from 'react-icons/bs'
 
 import BgVideo from '../../assets/hero_video_bg.mp4'
-import logo from '../../assets/fontrow_logo_wh.png'
+// import logo from '../../assets/fontrow_logo_wh.png'
 
 
 const Hero = () => {
@@ -39,11 +39,19 @@ const Hero = () => {
                         <h2><span className='span1'>Web Design.</span> <span className='span2'>SEO.</span> <span className='span3'>Solutions.</span></h2>
                         </Fade>
 
-                        <div className="hero-logo">
-                    <Link to='/'>
-                    <img src={logo} alt="Logo" loading="lazy"/>
-                    </Link>
-                </div>
+                        {/* <div className="hero-logo">
+                            <Link to='/'>
+                            <img src={logo} alt="Logo" loading="lazy"/>
+                            </Link>
+                        </div> */}
+
+                        <div className='hero-btn'>
+                            <Link to="/contact">
+                                <Fade bottom>
+                                    <button>CONTACT US</button>
+                                </Fade>
+                            </Link>
+                        </div>
 
                         <Fade right>
                         <div className="header__socials">
@@ -56,17 +64,9 @@ const Hero = () => {
                         </div>
                         </Fade>
 
-                        <div className='hero-btn'>
-                            <Link to="/contact">
-                                <Fade bottom>
-                                    <button>Contact Us</button>
-                                </Fade>
-                            </Link>
+
                         <div>
-
-
-                        </div>
-                    </div>
+                   </div>
                 </div>
             </div>
         </div>
