@@ -57,11 +57,11 @@ const Navbar = () => {
 
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="/"> Services<BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/web-design`}> Web Design </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anxiety`}> Website and Maintenance </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/panic-disorder`}> eCommerce </NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Graphic Design </NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/acute-stress-disorder`}> Search Engine Optimization </NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/web-design`}> Web Design and Maintenance</NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/wix-professional-design`}> Professional WIX Design </NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ecommerce`}> eCommerce </NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Graphic Design </NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Search Engine Optimization </NavLink> </li>
                             </ul>
                     </li>
                     <li><Link to='/about-us'>About Us</Link></li>

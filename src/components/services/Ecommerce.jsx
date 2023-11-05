@@ -1,23 +1,23 @@
 import React from 'react'
-import './TransitionalHousing1.css'
+import './Ecommerce.css'
 import EmploymentIMG1 from '../../assets/housing1.png'
 
 import { AiOutlineCheck } from 'react-icons/ai';
 
-const TransitionalHousing1 = () => {
+const Ecommerce = () => {
   return (
     <>
-      <div className='housing1'>
-        <div className='housing1-content'>
+      <div className='ecommerce'>
+        <div className='ecommerce-content'>
 
 {/* FLEX ITEMS */}
 
-            <div className='housing1-flex container'>
-                <div className='housing1-icon'>
+            <div className='ecommerce-flex container'>
+                <div className='ecommerce-icon'>
                     <img src={ EmploymentIMG1 } alt="Employment Program" loading="lazy"/>
                 </div>
 
-                <div className='housing1-caption'>
+                <div className='ecommerce-caption'>
                     <div>
                         <h1>Better Transitional Housing</h1>
                         <p>Make yourself at home. Stay as long as you need. We provide all the basics while you rebuild your life.</p>
@@ -43,4 +43,4 @@ const TransitionalHousing1 = () => {
   )
 }
 
-export default TransitionalHousing1
+export default Ecommerce

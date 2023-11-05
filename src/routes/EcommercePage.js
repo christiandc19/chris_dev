@@ -2,16 +2,16 @@ import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import ContactForm from '../components/contact/ContactForm'
-import Employment from '../components/employment/Employment'
-import Employment1 from '../components/employment/Employment1'
+import EcommerceHero from '../components/services/EcommerceHero'
+import Ecommerce from '../components/services/Ecommerce'
 import ContactCards from '../components/contact/ContactCards'
 
-const EmploymentPage = () => {
+const EcommercePage = () => {
   return (
     <>
           <Navbar /> 
-          <Employment />
-          <Employment1 />
+          <EcommerceHero />
+          <Ecommerce />
           <ContactForm />
           <ContactCards />
           <Footer />
@@ -20,4 +20,4 @@ const EmploymentPage = () => {
   )
 }
 
-export default EmploymentPage
+export default EcommercePage

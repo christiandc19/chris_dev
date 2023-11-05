@@ -1,16 +1,16 @@
-.housing1 {
+.ecommerce {
     background-color: white;
     padding: 5rem 0;
 }
 
-.housing1-header h1{
+.ecommerce-header h1{
     font-size: 2rem;
     font-family: 'Indie Flower', cursive;
     text-align: center;
     padding: 3rem 0;
 }
 
-.housing1-flex {
+.ecommerce-flex {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -18,44 +18,44 @@
     justify-content: center;
 }
 
-.housing1-icon {
+.ecommerce-icon {
     width: 500px;
     margin: auto;
 }
 
-.housing1-icon img {
+.ecommerce-icon img {
     width: 100%;
 }
 
-.housing1-caption {
+.ecommerce-caption {
     width: 50%;
     margin: auto;
     padding: 1rem;
 }
 
-.housing1-caption h1 {
+.ecommerce-caption h1 {
     font-size: 3rem;
 }
 
-.housing1-caption p {
+.ecommerce-caption p {
     font-size: 16px;
 }
 
 @media screen and (max-width:940px) {
-    .housing1-caption {
+    .ecommerce-caption {
         width: 90%;
         padding: 0 1rem;
     }
 
-    .housing1-caption h1 {
+    .ecommerce-caption h1 {
         text-align: center;
     }
 
-    .housing1-icon {
+    .ecommerce-icon {
         width: 90%;
     }
     
-    .housing1-caption {
+    .ecommerce-caption {
         width: 90%;
 ;
     }
