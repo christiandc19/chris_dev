@@ -43,44 +43,50 @@ const Footer = () => {
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/our-mission'><p>Our Mission</p></Link>
+                        <Link to='/contact'><p>Contact Us</p></Link>
                         </LinkRoll>
                     </div>
 
 
                     <div className="column">
-                        <h3>Navigation</h3>
+                        <h3>Web Solutions</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/employment'><p>Employment Assistance</p></Link>
+                        <Link to='/web-design'><p>Web Design and Maintenance</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/transitional-housing'><p>Transitional Housing</p></Link>
+                        <Link to='/wix-professional-design'><p>Wix Professional Website</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/other-resources '><p>Other Resources</p></Link>
+                        <Link to='/ecommerce'><p>eCommerce</p></Link>
                         </LinkRoll>
                     </div>
 
 
                     <div className="column">
-                        <h3>Contact Us</h3>
+                        <h3>Services</h3>
+
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/los-angeles'><p><a href="tel:8182721022">  (818) 272-1022</a></p></Link>
+                        <Link to='/'><p>Graphic Designs</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Torrance Ave. <br/>Torrance, CA 90028</p></Link>
+                        <Link to='/'><p>Search Engine Optimization</p></Link>
                         </LinkRoll>
+
+                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                        <Link to='/'><p>Photography</p></Link>
+                        </LinkRoll>
+
                     </div>
 
 
                 </div>
 
                 <div className='copyright'>
-                    <p>&copy; 2023 Fontrow Web Services. All rights reserved</p>
+                    <p>&copy; 2023 Fontrow Web Solutions. All rights reserved</p>
                 </div>
 
             </div>

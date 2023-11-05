@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/me.png'
+import Fade from 'react-reveal/Fade';
 
 import './About.css'
 
@@ -8,17 +8,13 @@ import './About.css'
 const Team = () => {
     return (
 <>
-<div className='about'>
-        <div className="about-content container">
-                <div className='about-accent'>
-                    <img src={ Logo } alt="individual therapy" loading="lazy"/>
-                </div>
-
-                <div className='about-right'>
+<div className='about-hero'>
+            <div className="about-hero-content">
+            <Fade top>
                     <h1>About Us</h1>
-                </div>
-        </div>
-    </div>
+            </Fade>
+            </div>
+     </div>
 </>
 )
 }

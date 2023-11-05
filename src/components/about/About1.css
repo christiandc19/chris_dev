@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     background: rgb(255, 255, 255);
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 .about1-header {
@@ -22,19 +22,41 @@
     text-align: center;
 }
 
+.about1-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about1-flex-left {
+    width: 500px;
+    margin: auto;
+}
+
+.about1-flex-left img {
+    width: 100%;
+}
+
+.about1-flex-right {
+    width: 50%;
+    margin: auto;
+}
+
 
 @media screen and (max-width: 940px) {
-    .team-section .content {
+
+    .about1-flex {
+        flex-wrap: wrap;
+    }
+
+    .about1-flex-left  {
         width: 100%;
     }
 
-    .team-section h1 {
-        font-size: 25px;
+    .about1-flex-right  {
+        width: 100%;
     }
 
-    .team-section p {
-        font-size: 15px;
-    }
 }
 
 
