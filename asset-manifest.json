@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/chris_dev/static/css/main.6bbb236a.css",
-    "main.js": "/chris_dev/static/js/main.ad767463.js",
+    "main.css": "/chris_dev/static/css/main.3db00479.css",
+    "main.js": "/chris_dev/static/js/main.27bd1787.js",
     "static/media/hero_video_bg.mp4": "/chris_dev/static/media/hero_video_bg.b6c448397c26c174d689.mp4",
-    "static/media/housing.jpg": "/chris_dev/static/media/housing.b383309ca7ff6c121415.jpg",
     "static/media/SS_SunsetRehab.png": "/chris_dev/static/media/SS_SunsetRehab.845568761c30de07d34e.png",
     "static/media/SS_NaturaRestHouse.png": "/chris_dev/static/media/SS_NaturaRestHouse.8473b8bb4076d28bdcb1.png",
     "static/media/call_us.png": "/chris_dev/static/media/call_us.074751935ff5e6f653f3.png",
@@ -17,8 +16,10 @@
     "static/media/SS_22ndStreetRecovery.png": "/chris_dev/static/media/SS_22ndStreetRecovery.3f54568edd9db62de1b6.png",
     "static/media/SS_OceanValley.png": "/chris_dev/static/media/SS_OceanValley.91537e0a9c847eff153d.png",
     "static/media/SS_BeachStreet.png": "/chris_dev/static/media/SS_BeachStreet.1e012c1b400bfcd995ff.png",
-    "static/media/employment-landing.webp": "/chris_dev/static/media/employment-landing.692f3d06232e8153eadb.webp",
+    "static/media/ecommerce-hero.webp": "/chris_dev/static/media/ecommerce-hero.ce0679949fe5b3af3336.webp",
+    "static/media/about-hero.webp": "/chris_dev/static/media/about-hero.80df0c2fa313f7ec0972.webp",
     "static/media/portfolio.webp": "/chris_dev/static/media/portfolio.a10d515c69c2f5d52387.webp",
+    "static/media/wix-hero.webp": "/chris_dev/static/media/wix-hero.5b4ad353bd0e0ba2c3cd.webp",
     "static/media/web-design-hero.webp": "/chris_dev/static/media/web-design-hero.483afa7060230089c303.webp",
     "static/media/web_design.png": "/chris_dev/static/media/web_design.6759f41f3000842ff653.png",
     "static/media/housing1.png": "/chris_dev/static/media/housing1.ce4a96e38717d3e5080b.png",
@@ -31,11 +32,11 @@
     "static/media/fontrow_logo.png": "/chris_dev/static/media/fontrow_logo.6f11522b68a07a8be3d9.png",
     "static/media/fontrow_logo_wh.png": "/chris_dev/static/media/fontrow_logo_wh.f939c261726356278031.png",
     "index.html": "/chris_dev/index.html",
-    "main.6bbb236a.css.map": "/chris_dev/static/css/main.6bbb236a.css.map",
-    "main.ad767463.js.map": "/chris_dev/static/js/main.ad767463.js.map"
+    "main.3db00479.css.map": "/chris_dev/static/css/main.3db00479.css.map",
+    "main.27bd1787.js.map": "/chris_dev/static/js/main.27bd1787.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bbb236a.css",
-    "static/js/main.ad767463.js"
+    "static/css/main.3db00479.css",
+    "static/js/main.27bd1787.js"
   ]
 }
