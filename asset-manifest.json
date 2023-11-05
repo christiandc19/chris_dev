@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chris_dev/static/css/main.9aa878a6.css",
-    "main.js": "/chris_dev/static/js/main.c6f3cd63.js",
+    "main.css": "/chris_dev/static/css/main.6bbb236a.css",
+    "main.js": "/chris_dev/static/js/main.ad767463.js",
     "static/media/hero_video_bg.mp4": "/chris_dev/static/media/hero_video_bg.b6c448397c26c174d689.mp4",
     "static/media/housing.jpg": "/chris_dev/static/media/housing.b383309ca7ff6c121415.jpg",
     "static/media/SS_SunsetRehab.png": "/chris_dev/static/media/SS_SunsetRehab.845568761c30de07d34e.png",
@@ -18,10 +18,8 @@
     "static/media/SS_OceanValley.png": "/chris_dev/static/media/SS_OceanValley.91537e0a9c847eff153d.png",
     "static/media/SS_BeachStreet.png": "/chris_dev/static/media/SS_BeachStreet.1e012c1b400bfcd995ff.png",
     "static/media/employment-landing.webp": "/chris_dev/static/media/employment-landing.692f3d06232e8153eadb.webp",
-    "static/media/employement1.png": "/chris_dev/static/media/employement1.37adbc6b55b52f0ce398.png",
     "static/media/portfolio.webp": "/chris_dev/static/media/portfolio.a10d515c69c2f5d52387.webp",
     "static/media/web-design-hero.webp": "/chris_dev/static/media/web-design-hero.483afa7060230089c303.webp",
-    "static/media/paint-navy.png": "/chris_dev/static/media/paint-navy.fc409b0095f4e4d7aadd.png",
     "static/media/web_design.png": "/chris_dev/static/media/web_design.6759f41f3000842ff653.png",
     "static/media/housing1.png": "/chris_dev/static/media/housing1.ce4a96e38717d3e5080b.png",
     "static/media/man_laptop.webp": "/chris_dev/static/media/man_laptop.a23782fb266fcf26b910.webp",
@@ -33,11 +31,11 @@
     "static/media/fontrow_logo.png": "/chris_dev/static/media/fontrow_logo.6f11522b68a07a8be3d9.png",
     "static/media/fontrow_logo_wh.png": "/chris_dev/static/media/fontrow_logo_wh.f939c261726356278031.png",
     "index.html": "/chris_dev/index.html",
-    "main.9aa878a6.css.map": "/chris_dev/static/css/main.9aa878a6.css.map",
-    "main.c6f3cd63.js.map": "/chris_dev/static/js/main.c6f3cd63.js.map"
+    "main.6bbb236a.css.map": "/chris_dev/static/css/main.6bbb236a.css.map",
+    "main.ad767463.js.map": "/chris_dev/static/js/main.ad767463.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa878a6.css",
-    "static/js/main.c6f3cd63.js"
+    "static/css/main.6bbb236a.css",
+    "static/js/main.ad767463.js"
   ]
 }
