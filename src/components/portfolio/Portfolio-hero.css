@@ -24,7 +24,7 @@
   .portfolio-hero .portfolio-hero-content {
     display: block;
     position: absolute;
-    top: 60%;
+    bottom: 20%;
     padding: 1rem;
     width: 50%;
     text-align: center;
@@ -43,13 +43,10 @@
 
 @media screen and (max-width:940px) {
 
-.portfolio-hero h2 {
-    color: white;
-    font-size: 1.5rem;
-}
+
 
 .portfolio-hero h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 

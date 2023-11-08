@@ -22,7 +22,7 @@ const Portfolio = () => {
         <div className="portfolio">
         <Fade>
         <div className="portfolio-header container">
-            <h1>PROJECTS</h1>
+            <h1>Explore our custom websites designed for clients across all industries.</h1>
 
             <div className="portfolio-container">
 

@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import './Hero.css'
+import { Link } from 'react-router-dom';
+
+import './Hero2.css'
+import me from '../../assets/me2.png'
 
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs'
@@ -10,28 +12,27 @@ import { BsTwitter } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
 import { BsMessenger } from 'react-icons/bs'
 
-import BgVideo from '../../assets/hero_video_bg.mp4'
-// import logo from '../../assets/fontrow_logo_wh.png'
 
-
-const Hero = () => {
+const Hero2 = () => {
 
     const style = { fontSize: "1.5em" }
 
-    return (
-<>        
 
-        <div className='hero'>
-            <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
+  return (
+    <>
+      <div className='hero2'>
+        <div className='hero2-content container'>
 
+            <div className='hero2-flex'>
 
+              <div className='hero2-left'>
+                <img src={me} alt='man with laptop' loading='lazy'/>
+              </div>
 
-            <div className="hero-container">
+              <div className='hero2-right'>
+                <Fade top>
 
-                <div className="content">
-
-
-                        <Fade left>
+                <Fade left>
                             <p>"Your Web Design Source"</p>
                         </Fade>
 
@@ -39,11 +40,7 @@ const Hero = () => {
                         <h2><span className='span1'>Web Design.</span> <span className='span2'>SEO.</span> <span className='span3'>Solutions.</span></h2>
                         </Fade>
 
-                        {/* <div className="hero-logo">
-                            <Link to='/'>
-                            <img src={logo} alt="Logo" loading="lazy"/>
-                            </Link>
-                        </div> */}
+ 
 
                         <div className='hero-btn'>
                             <Link to="/contact">
@@ -63,18 +60,15 @@ const Hero = () => {
                             <a href="https://www.m.me/chrisvisits/" style={style}><span className='span-messenger'><BsMessenger/></span></a>
                         </div>
                         </Fade>
+                </Fade>
+              </div>
 
-
-                        <div>
-                   </div>
-                </div>
             </div>
+
         </div>
-
-
-</>
-
-    )
+      </div>
+    </>
+  )
 }
 
-export default Hero
+export default Hero2

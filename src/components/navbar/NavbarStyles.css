@@ -29,6 +29,11 @@
   color: rgb(225, 228, 235);
 }
 
+.navbar .icon-bar {
+  font-size: 2.5rem;
+  color: rgb(225, 228, 235);
+}
+
 .navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;

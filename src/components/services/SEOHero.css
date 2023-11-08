@@ -1,58 +1,70 @@
-.ecommerce-hero {
+.seo-hero {
     width: 100%;
     height: auto;
     padding: 2rem 0;
   }
   
-  .ecommerce-hero-flex {
+  .seo-hero-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
 
-  .ecommerce-hero-content {
+  .seo-hero-content {
     padding: 5rem 1rem 0 1rem;
 
 }
 
-  .ecommerce-left {
+  .seo-left {
     width: 400px;
     margin: auto;
   }
 
-  .ecommerce-left img{
+  .seo-left img{
     width:100%;
   }
 
-  .ecommerce-right {
+  .seo-right {
     width: 50%;
     margin: auto;
   }
 
-  .ecommerce-hero-content h1 {
+  .seo-hero-content h1 {
     font-size: 2rem;
     color: rgb(21, 173, 21);
-    text-align: center;
 
   }
 
+  .seo-right p {
+    color: rgb(22, 21, 21);
+    text-align: justify;
+  }
 
 
 
 @media screen and (max-width:940px) {
 
-  .ecommerce-hero-content h1 {
+  .seo-hero-content h1 {
     font-size: 1.5rem;
     text-align: center;
 }
 
-  .web-design-right {
+  .seo-hero-content h2 {
+    text-align: center;
+  }
+
+  .seo-hero-content  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .seo-right {
     width: 100%;
     margin: auto;
   }
 
-  .web-design-left {
+  .seo-left {
     width: 300px;
     margin: auto;
   }

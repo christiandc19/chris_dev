@@ -1,63 +1,89 @@
-.ecommerce {
-    background-color: white;
-    padding: 5rem 0;
-}
 
-.ecommerce-header h1{
-    font-size: 2rem;
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-    padding: 3rem 0;
-}
+
+
 
 .ecommerce-flex {
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
     justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
 }
 
-.ecommerce-icon {
-    width: 500px;
-    margin: auto;
+.ecommerce-flex-left {
+    width: 30%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(253, 252, 250);
+    box-shadow: 10px 10px 53px -34px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 10px 53px -34px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 53px -34px rgba(0,0,0,0.47);
 }
 
-.ecommerce-icon img {
-    width: 100%;
+.ecommerce-flex-left h1 {
+    font-size: 2rem;
+    color: rgb(21, 173, 21);
 }
 
-.ecommerce-caption {
-    width: 50%;
-    margin: auto;
+.ecommerce-flex-right {
+    width: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(253, 252, 250);
+    box-shadow: 10px 10px 53px -34px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 10px 53px -34px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 53px -34px rgba(0,0,0,0.47);
+
+}
+
+.ecommerce-flex-right span {
+    font-size: 1rem;
+    color: rgb(39, 219, 84);
+}
+
+.ecommerce-package {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
     padding: 1rem;
 }
 
-.ecommerce-caption h1 {
-    font-size: 3rem;
+.ecommerce-package-left {
+    width: 40%;
 }
 
-.ecommerce-caption p {
-    font-size: 16px;
+.ecommerce-package-right {
+    width: 40%;
+}
+
+.ecommerce-flex-right p {
+    text-align: justify;
+}
+
+.ecommerce-package h1 {
+    font-size: .8rem;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 @media screen and (max-width:940px) {
-    .ecommerce-caption {
-        width: 90%;
-        padding: 0 1rem;
+    .ecommerce-flex {
+        flex-wrap: wrap;
     }
 
-    .ecommerce-caption h1 {
+    .ecommerce-flex-left {
+        width: 100%;
         text-align: center;
     }
 
-    .ecommerce-icon {
-        width: 90%;
+    .ecommerce-package {
+        flex-wrap: wrap;
+    }
+
+    .ecommerce-package-left {
+        width: 100%;
     }
     
-    .ecommerce-caption {
-        width: 90%;
-;
+    .ecommerce-package-right {
+        width: 100%;
     }
-    
 }

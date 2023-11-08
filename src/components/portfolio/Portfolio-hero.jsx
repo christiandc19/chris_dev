@@ -12,7 +12,7 @@ const PortfolioHero = () => {
         <div className='portfolio-hero'>
                 <div className="portfolio-hero-content">
                     <Fade top>
-                    <h1>Check out our projects</h1>
+                    <h1>CHECK OUT OUR PROJECTS</h1>
                     </Fade>
                 </div>
             </div>

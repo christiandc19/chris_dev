@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import {NavLink, Link} from 'react-router-dom'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
+import { BiMenuAltRight } from 'react-icons/bi'
+
 import logo from '../../assets/fontrow_logo_wh.png'
 import {BsFillCaretDownFill } from "react-icons/bs";
 
@@ -60,8 +62,8 @@ const Navbar = () => {
                                 <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/web-design`}> Web Design and Maintenance</NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/wix-professional-design`}> Professional WIX Design </NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/ecommerce`}> eCommerce </NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Graphic Design </NavLink> </li>
-                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/`}> Search Engine Optimization </NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/graphic-design`}> Graphic Design </NavLink> </li>
+                                <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/search-engine-optimization`}> Search Engine Optimization </NavLink> </li>
                             </ul>
                     </li>
                     <li><Link to='/about-us'>About Us</Link></li>
@@ -70,7 +72,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hamburger" onClick={handleNav}>
-                    {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
+                    {!nav ? (<BiMenuAltRight className='icon-bar' />) : (<FaTimes className='icon' />)}
                 </div>
 
 
